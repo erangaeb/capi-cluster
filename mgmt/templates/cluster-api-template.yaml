@@ -51,8 +51,7 @@ spec:
     clusterConfiguration:
       apiServer:
         certSANs:
-          - localhost
-          - 127.0.0.1
+          - 192.168.64.52
       controllerManager:
         extraArgs:
           enable-hostpath-provisioner: "true"
